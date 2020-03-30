@@ -14,6 +14,7 @@ const typeDefs = gql`
   }
 
   schema {
+    query: Query
     subscription: Subscription
   }
 `;
